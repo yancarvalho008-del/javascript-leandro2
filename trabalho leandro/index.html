@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma página educativa sobre a Segunda Revolução Industrial.">
+  <title>Segunda Revolução Industrial</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">HISTÓRIA<span>+</span></a>
+
+    <nav>
+      <a href="#contexto">Contexto</a>
+      <a href="#invencoes">Invenções</a>
+      <a href="#impactos">Impactos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-conteudo">
+        <p class="etiqueta">HISTÓRIA • SÉCULO XIX</p>
+        <h1>O mundo entrou<br>em uma nova era.</h1>
+
+        <p class="introducao">
+          A Segunda Revolução Industrial transformou
+          a maneira de produzir, viajar e se comunicar,
+          mudando profundamente a sociedade.
+        </p>
+
+        <a class="botao" href="#contexto">Explorar o tema ↓</a>
+      </div>
+
+      <div class="hero-imagem" role="img" aria-label="Imagem de uma fábrica industrial antiga">
+        <div class="imagem-legenda">A indústria em transformação</div>
+      </div>
+
+      <div class="hero-numero">
+        <strong>1870</strong>
+        <span>Marco aproximado<br>de uma nova fase</span>
+      </div>
+    </section>
+
+    <section class="secao contexto" id="contexto">
+      <div class="titulo-secao">
+        <p class="etiqueta">01 / CONTEXTO</p>
+        <h2>O que foi a Segunda<br>Revolução Industrial?</h2>
+      </div>
+
+      <div class="texto-contexto">
+        <p>
+          Foi uma fase de grande crescimento industrial
+          que começou por volta de 1870 e avançou até o
+          início do século XX. A industrialização se
+          expandiu para países como Alemanha, Estados
+          Unidos e Japão, enquanto o Reino Unido continuou
+          sendo uma potência industrial.
+        </p>
+
+        <p>
+          Novas fontes de energia, materiais e técnicas
+          de produção aceleraram a fabricação de mercadorias
+          e conectaram regiões por meio de ferrovias,
+          navios e redes de comunicação.
+        </p>
+      </div>
+    </section>
+
+    <section class="secao invencoes" id="invencoes">
+      <div class="cabecalho-lista">
+        <div>
+          <p class="etiqueta">02 / INOVAÇÕES</p>
+          <h2>Invenções que mudaram<br>o cotidiano</h2>
+        </div>
+
+        <p>
+          Selecione um cartão para descobrir
+          por que cada avanço foi importante.
+        </p>
+      </div>
+
+      <div class="cartoes">
+        <button class="cartao"
+          data-titulo="Eletricidade"
+          data-detalhe="A eletricidade permitiu iluminar ruas e fábricas, alimentar motores e utilizar novos aparelhos.">
+          <span class="icone">ϟ</span>
+          <span class="ano">FONTE DE ENERGIA</span>
+          <strong>Eletricidade</strong>
+          <span class="resumo">Iluminação e novas máquinas.</span>
+          <span class="ver-mais">Ver detalhe ↗</span>
+        </button>
+
+        <button class="cartao"
+          data-titulo="Petróleo"
+          data-detalhe="O petróleo ganhou importância como combustível. Motores de combustão interna ajudaram a desenvolver automóveis e outros transportes.">
+          <span class="icone">◉</span>
+          <span class="ano">COMBUSTÍVEIS</span>
+          <strong>Petróleo</strong>
+          <span class="resumo">Impulso para motores e transportes.</span>
+          <span class="ver-mais">Ver detalhe ↗</span>
+        </button>
+
+        <button class="cartao"
+          data-titulo="Aço"
+          data-detalhe="A produção de aço em maior quantidade e com menor custo contribuiu para a construção de pontes, ferrovias, edifícios e máquinas.">
+          <span class="icone">▤</span>
+          <span class="ano">NOVOS MATERIAIS</span>
+          <strong>Aço</strong>
+          <span class="resumo">Construções mais resistentes.</span>
+          <span class="ver-mais">Ver detalhe ↗</span>
+        </button>
+
+        <button class="cartao"
+          data-titulo="Telefone"
+          data-detalhe="O telefone ampliou a comunicação por voz a distância e ajudou pessoas e empresas a trocar informações com mais rapidez.">
+          <span class="icone">⌁</span>
+          <span class="ano">COMUNICAÇÃO</span>
+          <strong>Telefone</strong>
+          <span class="resumo">Informações viajando mais rápido.</span>
+          <span class="ver-mais">Ver detalhe ↗</span>
+        </button>
+      </div>
+
+      <div class="detalhe" id="painel-detalhe">
+        <div>
+          <p class="etiqueta">SAIBA MAIS</p>
+          <h3 id="detalhe-titulo">Escolha uma invenção</h3>
+        </div>
+
+        <p id="detalhe-texto">
+          Clique em um dos cartões acima para ver
+          uma explicação mais completa.
+        </p>
+      </div>
+    </section>
+
+    <section class="faixa" id="impactos">
+      <p class="etiqueta">03 / CONSEQUÊNCIAS</p>
+      <h2>Progresso para quem?<br>Transformações e desafios.</h2>
+
+      <div class="impactos-grid">
+        <article>
+          <span>＋</span>
+          <h3>Produção em expansão</h3>
+          <p>
+            As fábricas produziram mais mercadorias,
+            e os transportes e as comunicações
+            ficaram mais eficientes.
+          </p>
+        </article>
+
+        <article>
+          <span>↗</span>
+          <h3>Crescimento das cidades</h3>
+          <p>
+            A busca por trabalho industrial contribuiu
+            para a urbanização e a expansão da
+            classe operária.
+          </p>
+        </article>
+
+        <article>
+          <span>!</span>
+          <h3>Desigualdade e exploração</h3>
+          <p>
+            Muitos trabalhadores enfrentavam jornadas
+            longas, baixos salários e ambientes perigosos.
+            Movimentos sociais lutaram por direitos.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="linha-tempo">
+      <p class="etiqueta">PARA LEMBRAR</p>
+      <h2>Uma linha do tempo resumida</h2>
+
+      <ol>
+        <li>
+          <span>Década de 1870</span>
+          <p>Expansão de novas tecnologias e da indústria pesada.</p>
+        </li>
+
+        <li>
+          <span>Final do século XIX</span>
+          <p>Avanço da eletrificação, do aço e das comunicações.</p>
+        </li>
+
+        <li>
+          <span>Início do século XX</span>
+          <p>Produção em massa e novas formas de organização do trabalho.</p>
+        </li>
+      </ol>
+
+      <button class="botao botao-escuro" id="botao-curiosidade">
+        Mostrar uma curiosidade
+      </button>
+
+      <p class="curiosidade" id="curiosidade" hidden>
+        A Segunda Revolução Industrial não dependeu apenas
+        de invenções: também envolveu redes de transporte,
+        trabalhadores especializados e novas formas de
+        organizar as fábricas.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#inicio">HISTÓRIA<span>+</span></a>
+    <p>Uma introdução à Segunda Revolução Industrial.</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+</body>
+</html>
